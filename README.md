@@ -1,7 +1,7 @@
 # [Feature Fusion Transferability Aware Transformer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2108.05988), WACV 2025
 
 ### updates (11/10/2024)
-Add the environment requirements to reproduce the results.
+<!--  Add the environment requirements to reproduce the results.  --> 
 
 <p align="left"> 
 <img width="800" src="https://github.com/Shawey94/FFTAT/blob/main/image.png">
