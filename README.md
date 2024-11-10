@@ -1,17 +1,7 @@
 # [Feature Fusion Transferability Aware Transformer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2108.05988), WACV 2025
 
 ### updates (11/10/2024)
-1. Add the environment requirements to reproduce the results.
-
-2. Add the attention visualization code. An example is as follows where `att_visual.txt` contains image pathes:
-```
-python3 visualize.py --dataset office --name dw --num_classes 31 --image_path att_visual.txt --img_size 256
-```
-
-Add the source-only code. An example on `Office-31` dataset is as follows, where `dslr` is the source domain, `webcam` is the target domain:
-```
-python3 train.py --train_batch_size 64 --dataset office --name dw_source_only --train_list data/office/dslr_list.txt --test_list data/office/webcam_list.txt --num_classes 31 --model_type ViT-B_16 --pretrained_dir checkpoint/ViT-B_16.npz --num_steps 5000 --img_size 256
-```
+Add the environment requirements to reproduce the results.
 
 <p align="left"> 
 <img width="400" src="https://github.com/Shawey94/FFTAT/image.png">
