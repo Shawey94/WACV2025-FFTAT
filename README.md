@@ -45,11 +45,11 @@ TVT with ViT-B_16 (ImageNet-21K) performs a little bit better than TVT with ViT-
 
 All commands can be found in `script.txt`. An example:
 ```
-python3 main.py --train_batch_size 64 --dataset office --name wa \
+python3 main.py --train_batch_size 16 --dataset office --name wa \
 --source_list data/office/webcam_list.txt --target_list data/office/amazon_list.txt \
 --test_list data/office/amazon_list.txt --num_classes 31 --model_type ViT-B_16 \
 --pretrained_dir checkpoint/ViT-B_16.npz --num_steps 5000 --img_size 256 \
---beta 0.1 --gamma 0.01 --use_im --theta 0.1
+--beta 0.1 --gamma 0.2 --use_im --theta 0.1
 ```
 
 <!-- 
@@ -57,7 +57,7 @@ python3 main.py --train_batch_size 64 --dataset office --name wa \
 ```
 python3 visualize.py --dataset office --name wa --num_classes 31 --image_path att_visual.txt --img_size 256
 ```
-The code will automatically use the best model in `wa` to visualize the attention maps of images in `att_visual.txt`. `att_visual.txt` contains image pathes you want to visualize, for example:
+The code will automatically use the best model in `wa` to visualize the attention maps of images in `att_visual.txt`. `att_visual.txt` contains image paths you want to visualize, for example:
 ```
 /data/office/domain_adaptation_images/dslr/images/calculator/frame_0001.jpg 5
 /data/office/domain_adaptation_images/dslr/images/calculator/frame_0002.jpg 5
