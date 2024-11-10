@@ -52,6 +52,7 @@ python3 main.py --train_batch_size 64 --dataset office --name wa \
 --beta 0.1 --gamma 0.01 --use_im --theta 0.1
 ```
 
+<!-- 
 ### Attention Map Visualization:
 ```
 python3 visualize.py --dataset office --name wa --num_classes 31 --image_path att_visual.txt --img_size 256
@@ -64,7 +65,7 @@ The code will automatically use the best model in `wa` to visualize the attentio
 /data/office/domain_adaptation_images/dslr/images/calculator/frame_0004.jpg 5
 /data/office/domain_adaptation_images/dslr/images/calculator/frame_0005.jpg 5
 ```
-
+ --> 
 
 ### Citation:
 ```
