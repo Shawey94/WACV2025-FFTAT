@@ -14,7 +14,7 @@ python3 train.py --train_batch_size 64 --dataset office --name dw_source_only --
 ```
 
 <p align="left"> 
-<img width="400" src="https://github.com/Shawey94/FFTAT/image.png">
+<img width="800" src="https://github.com/Shawey94/FFTAT/image.png">
 </p>
 
 ### Environment (Python 3.8.12)
