@@ -1,4 +1,4 @@
-# [Feature Fusion Transferability Aware Transformer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2108.05988), WACV 2025
+# [Feature Fusion Transferability Aware Transformer for Unsupervised Domain Adaptation](https://arxiv.org/pdf/2411.07794), WACV 2025
 
 ### updates (11/10/2024)
 <!--  Add the environment requirements to reproduce the results.  --> 
