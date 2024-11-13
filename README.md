@@ -39,7 +39,7 @@ TVT with ViT-B_16 (ImageNet-21K) performs a little bit better than TVT with ViT-
 
 ### Datasets:
 
-- Download images from [Office-31](https://drive.google.com/file/d/0B4IapRTv9pJ1WGZVd1VDMmhwdlE/view?resourcekey=0-gNMHVtZfRAyO_t2_WrOunA), [Office-Home](https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view?resourcekey=0-2SNWq0CDAuWOBRRBL7ZZsw), [VisDA-2017](https://github.com/VisionLearningGroup/taskcv-2017-public/tree/master/classification), [DomainNet](https://ai.bu.edu/M3SDA/#dataset) and put them under `data/`. For example, images of `Office-31` should be located at `data/office/domain_adaptation_images/`, please refer to the format in 'data/office' and 'data/office-home'. The file size of DomainNet and Visda2017 is too big for GitHub.
+- Download images from [Office-31](https://drive.google.com/file/d/0B4IapRTv9pJ1WGZVd1VDMmhwdlE/view?resourcekey=0-gNMHVtZfRAyO_t2_WrOunA), [Office-Home](https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view?resourcekey=0-2SNWq0CDAuWOBRRBL7ZZsw), [VisDA-2017](https://github.com/VisionLearningGroup/taskcv-2017-public/tree/master/classification), [DomainNet](https://ai.bu.edu/M3SDA/#dataset) and put them under `data/`. For example, images of `Office-31` should be located at `data/office/domain_adaptation_images/`, please refer to the format in 'data/office' and 'data/office-home'. The file size of DomainNet and Visda2017 is too big for GitHub, so you can only find 'office' and 'office-home' under 'data/'.
 
 ### Training:
 
