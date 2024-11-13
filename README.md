@@ -72,7 +72,7 @@ The code will automatically use the best model in `wa` to visualize the attentio
 @article{yu2024FFTAT,
   title={Feature Fusion Transferability Aware Transformer for Unsupervised Domain Adaptation},
   author={Yu, Xiaowei and Huang, Zhe and Zhang, Zao},
-  journal={arXiv preprint arXiv:2108.05988},
+  journal={https://arxiv.org/pdf/2411.07794},
   year={2024}
 }
 ```
