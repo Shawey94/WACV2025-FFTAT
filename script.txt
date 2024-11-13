@@ -55,14 +55,11 @@ python3 main.py --train_batch_size 16 --eval_batch_size 16 --dataset visda17 --n
 
 python3 main.py --train_batch_size 16 --eval_batch_size 16 --dataset DomainNet --name ci --source_list data/DomainNet/clipart_train.txt --target_list data/DomainNet/infograph_train.txt --test_list data/DomainNet/infograph_test.txt --num_classes 345 --model_type ViT-B_16 --pretrained_dir checkpoint/imagenet21k_ViT-B_16.npz --num_steps 20000 --img_size 256 --beta 0.1 --gamma 0.01 --use_im --theta 0.1 --learning_rate 0.07 --perturbationRatio 0.3 --gpu_id 1 --use_cp --optimal 1 --warmup_steps 2000
 
-python3 main.py --train_batch_size 14 --eval_batch_size 14 --dataset DomainNet --name cp --source_list data/DomainNet/clipart_train.txt --target_list data/DomainNet/painting_train.txt --test_list data/DomainNet/painting_test.txt --num_classes 345 --model_type ViT-B_16 --pretrained_dir checkpoint/imagenet21k_ViT-B_16.npz --num_steps 40000 --img_size 256 --beta 0.1 --gamma 0.1 --use_im --theta 0.1 --learning_rate 0.06 --perturbationRatio 0.3 --gpu_id 1 --use_cp --optimal 1 --warmup_steps 2000
+python3 main.py --train_batch_size 16 --eval_batch_size 16 --dataset DomainNet --name cp --source_list data/DomainNet/clipart_train.txt --target_list data/DomainNet/painting_train.txt --test_list data/DomainNet/painting_test.txt --num_classes 345 --model_type ViT-B_16 --pretrained_dir checkpoint/imagenet21k_ViT-B_16.npz --num_steps 40000 --img_size 256 --beta 0.1 --gamma 0.1 --use_im --theta 0.1 --learning_rate 0.06 --perturbationRatio 0.3 --gpu_id 1 --use_cp --optimal 1 --warmup_steps 2000
 
 python3 main.py --train_batch_size 16 --eval_batch_size 16 --dataset DomainNet --name cr --source_list data/DomainNet/clipart_train.txt --target_list data/DomainNet/real_train.txt --test_list data/DomainNet/real_test.txt --num_classes 345 --model_type ViT-B_16 --pretrained_dir checkpoint/imagenet21k_ViT-B_16.npz --num_steps 20000 --img_size 256 --beta 1.0 --gamma 0.01 --use_im --theta 0.1 --learning_rate 0.06 --perturbationRatio 0.3 --gpu_id 0 --use_cp --optimal 1 --warmup_steps 1000
 
 python3 main.py --train_batch_size 16 --eval_batch_size 16 --dataset DomainNet --name cq --source_list data/DomainNet/clipart_train.txt --target_list data/DomainNet/quickdraw_train.txt --test_list data/DomainNet/quickdraw_test.txt --num_classes 345 --model_type ViT-B_16 --pretrained_dir checkpoint/imagenet21k_ViT-B_16.npz --num_steps 20000 --img_size 256 --beta 1.0 --gamma 0.1 --use_im --theta 0.1 --learning_rate 0.06 --perturbationRatio 0.3 --gpu_id 1 --use_cp --optimal 1 --warmup_steps 1000
-
-
-
 
 python3 main.py --train_batch_size 16 --dataset DomainNet --name cs --source_list data/DomainNet/clipart_train.txt --target_list data/DomainNet/sketch_train.txt --test_list data/DomainNet/sketch_test.txt --num_classes 345 --model_type ViT-B_16 --pretrained_dir checkpoint/ViT-B_16.npz --num_steps 20000 --img_size 256 --beta 0.1 --gamma 0.1 --use_im --theta 0.1 --learning_rate 0.07 --perturbationRatio 0.3 --gpu_id 2 --use_cp
 
