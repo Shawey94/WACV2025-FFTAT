@@ -20,6 +20,7 @@ pip install tensorboard==2.8.0
 # apex 0.1
 conda install -c conda-forge nvidia-apex
 pip install scipy==1.5.2
+pip install timm==0.6.13
 pip install ml-collections==0.1.0
 pip install scikit-learn==0.23.2
 ```
