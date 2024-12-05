@@ -76,5 +76,12 @@ The code will automatically use the best model in `wa` to visualize the attentio
   journal={arXiv preprint arXiv:2411.07794},
   year={2024}
 }
+
+@article{yu2023RCCT,
+  title={Robust core-periphery constrained transformer for domain adaptation},
+  author={Yu, Xiaowei and Zhu, Dajiang and Liu, Tianming},
+  journal={arXiv preprint arXiv:2308.13515},
+  year={2023}
+}
 ```
 Our code is largely borrowed from [TVT](https://github.com/uta-smile/TVT) and [ViT-pytorch](https://github.com/jeonsworld/ViT-pytorch)
